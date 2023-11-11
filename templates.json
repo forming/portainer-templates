@@ -1,5 +1,5 @@
 {
-  "version": "6",
+  "version": "7",
   "templates": [
     {
       "categories": [
@@ -148,7 +148,7 @@
         "Video",
         "Music"
       ],
-      "description": "Bazarr is a companion application to Sonarr and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.",
+      "description": "Bazarr is a companion application to  and Radarr. It can manage and download subtitles based on your requirements. You define your preferences by TV show or movie and Bazarr takes care of everything for you.",
       "env": [
         {
           "default": "1000",
@@ -1694,7 +1694,7 @@
         "Downloaders",
         "Tools"
       ],
-      "description": "Jackett works as a proxy server it translates queries from apps like Sonarr etc into tracker-site-specific http queries and parses the html response sending results back to the requesting software.[",
+      "description": "Jackett works as a proxy server it translates queries from apps like  etc into tracker-site-specific http queries and parses the html response sending results back to the requesting software.[",
       "env": [
         {
           "default": "1000",
@@ -3525,7 +3525,7 @@
         "Downloaders",
         "Video"
       ],
-      "description": "Radarr - A fork of Sonarr to work with movies \u00e0 la Couchpotato.",
+      "description": "Radarr - A fork of  to work with movies \u00e0 la Couchpotato.",
       "env": [
         {
           "default": "1000",
@@ -4024,7 +4024,7 @@
         "Downloaders",
         "Video"
       ],
-      "description": "Sonarr (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
+      "description": " (formerly NZBdrone) is a PVR for usenet and bittorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available.",
       "env": [
         {
           "default": "1000",
@@ -4037,7 +4037,7 @@
           "name": "PGID"
         }
       ],
-      "image": "linuxserver/sonarr:latest",
+      "image": "lscr.io/linuxserver/sonarr:version-3.0.8.1507",
       "logo": "https://raw.githubusercontent.com/mikestraney/portainer-templates/master/Images/sonarr-icon.png",
       "name": "sonarr",
       "platform": "linux",
