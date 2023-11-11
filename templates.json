@@ -1,5 +1,5 @@
 {
-  "version": "3",
+  "version": "4",
   "templates": [
     {
       "categories": [
@@ -4037,7 +4037,7 @@
           "name": "PGID"
         }
       ],
-      "image": "linuxserver/sonarr:3.0.8.1507-ls151",
+      "image": "linuxserver/sonarr:latest",
       "logo": "https://raw.githubusercontent.com/mikestraney/portainer-templates/master/Images/sonarr-icon.png",
       "name": "sonarr",
       "platform": "linux",
