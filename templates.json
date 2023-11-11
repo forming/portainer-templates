@@ -4037,7 +4037,7 @@
           "name": "PGID"
         }
       ],
-      "image": "linuxserver/sonarr:latest",
+      "image": "lscr.io/linuxserver/sonarr:latest",
       "logo": "https://raw.githubusercontent.com/mikestraney/portainer-templates/master/Images/sonarr-icon.png",
       "name": "sonarr",
       "platform": "linux",
